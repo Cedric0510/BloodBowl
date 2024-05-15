@@ -1,0 +1,49 @@
+#titre {
+  text-align: center;
+  /* justify-content: center; */
+  color: rgb(252, 252, 252);
+  margin-top: 2%;
+}
+nav{
+    box-shadow: 1em 1em 1em rgb(34, 34, 34);
+}
+body {
+  /* Définir l'image de fond */
+  background-image: url("./data/blood-bowl-banner-desktop.jpg");
+
+  /* Optionnel : spécifier la taille et la position de l'image */
+  background-size: cover 100%; /* pour couvrir toute la surface */
+  background-position: top; /* pour centrer l'image */
+  background-repeat: no-repeat; /* pour éviter la répétition de l'image */
+}
+/* .card-img-top{
+    height: 12em;
+    width: 10em;
+} */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-body{
+  text-align: center;
+}
+
+.card {
+    width: 30%; /* ou utilisez une autre valeur pour contrôler la largeur des cartes */
+    margin-bottom: 20px; /* espace entre les cartes */
+    border: 1px solid #ccc; /* bordure pour la décoration */
+    box-shadow: 1em 1em 1em rgb(34, 34, 34);
+  }
+
+#imper{
+    height: 15em;
+    width: 12em;
+    margin-left: 18%;
+    margin-top: 15%;
+}
+#logob{
+  height: 2em;
+  width: 2em;
+  border-radius: 100%;
+}
