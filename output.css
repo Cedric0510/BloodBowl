@@ -1,32 +1,36 @@
 #titre {
   text-align: center;
-  /* justify-content: center; */
-  color: rgb(252, 252, 252);
+  color: rgb(4, 4, 78);
   margin-top: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font
 }
 nav{
     box-shadow: 1em 1em 1em rgb(34, 34, 34);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
-  /* Définir l'image de fond */
-  background-image: url("./data/blood-bowl-banner-desktop.jpg");
-
-  /* Optionnel : spécifier la taille et la position de l'image */
-  background-size: cover 100%; /* pour couvrir toute la surface */
-  background-position: top; /* pour centrer l'image */
-  background-repeat: no-repeat; /* pour éviter la répétition de l'image */
+   background-image: url("./data/blood-bowl-banner-desktop.jpg");
+  background-size: cover 100%; /*pour couvrir toute la surface*/
+  background-position: top; /* pour centrer l'image*/
+  background-repeat: no-repeat; /*pour éviter la répétition de l'image*/
 }
-/* .card-img-top{
-    height: 12em;
-    width: 10em;
-} */
+
 .container {
+  background-color: rgb(4, 4, 78);
+  box-shadow: 1em 1em 1em rgb(34, 34, 34);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 1em;
+  border-color: #fbfaf9;
+  border-style: double;
+  border-radius: 5%;
 }
 .card-body{
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card {
