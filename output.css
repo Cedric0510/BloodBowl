@@ -1,3 +1,7 @@
+nav{
+  box-shadow: 1em 1em 1em rgb(34, 34, 34);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #titre {
   text-align: center;
   color: rgb(251, 251, 252);
@@ -9,10 +13,7 @@
   background-repeat: repeat; /* pour éviter la répétition de l'image */
   position: relative;
 }
-nav{
-    box-shadow: 1em 1em 1em rgb(34, 34, 34);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 
 .overlay {
   position: absolute;
@@ -24,15 +25,15 @@ nav{
 }
 
 .container {
-  background-color: rgb(4, 4, 78);
-  box-shadow: 1em 1em 1em rgb(34, 34, 34);
+  /* background-color: rgb(4, 4, 78);
+  box-shadow: 1em 1em 1em rgb(34, 34, 34); */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-top: 1em;
+  /* padding-top: 1em;
   border-color: #fbfaf9;
   border-style: double;
-  border-radius: 5%;
+  border-radius: 5%; */
 }
 .card-body{
   text-align: center;
